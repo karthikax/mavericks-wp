@@ -1,0 +1,11 @@
+%block {
+	&:not(:last-child) {
+		margin-bottom: 1.5rem
+	}
+}
+
+%base-grid {
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}

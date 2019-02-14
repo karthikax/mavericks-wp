@@ -1,0 +1,25 @@
+/*!
+Theme Name: mavericks
+Theme URI: http://underscores.me/
+Author: Karthik
+Author URI: https://karthikbhat.net/
+Description: Mavericks - Documentator, Blog and Forum for News
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: mavericks
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+@import "grid-kit/grid-kit";
+
+@import "variables/variables";
+@import "mixins/mixins-master";
+
+@import "typography/typography";
+@import "components/all";
+@import "navigation/navigation";
+@import "modules/accessibility";
+@import "media/media";
+
+@import "site/all";

@@ -1,0 +1,8 @@
+.widget-area {
+    padding: 2vw 0;
+
+    .widget-title {
+        @include font-size(1);
+        font-weight: 500;
+    }
+}
